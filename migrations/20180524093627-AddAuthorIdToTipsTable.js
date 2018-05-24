@@ -7,7 +7,6 @@ module.exports = {
        'authorId',
        {
            type: Sequelize.INTEGER,
-           defaultValue: false
        }
    );
   },
