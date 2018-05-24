@@ -39,6 +39,6 @@ quiz.belongsTo(user, {as: 'author', foreignKey: 'authorId'});
 
 // Relation 1-to-N between User and Quiz:
 user.hasMany(tip, {foreignKey: 'authorId'});
-quiz.belongsTo(user, {as: 'author', foreignKey: 'authorId'});
+quiz.belongsTo(user, {as: 'author1', foreignKey: 'authorId'});
 
 module.exports = sequelize;
